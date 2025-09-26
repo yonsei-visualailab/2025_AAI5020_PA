@@ -6,6 +6,9 @@ from torchvision import transforms
 from torch.utils.data import Dataset, DataLoader, Subset
 from glob import glob
 from model import NetVLADModel
+'''
+Newly defined libraries should be listed here.
+'''
 
 class IndoorDataset(Dataset):
     def __init__(self, base_dir, transform=None, scenes=None):

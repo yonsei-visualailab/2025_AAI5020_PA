@@ -106,12 +106,12 @@ python test.py
    - Evaluate how accurately the system recovers the missing poses.
    - You can add any ideas
 
-## Output
-The script generates the following outputs for each object:
+## Output:
 
 - NetVLAD model: Saved as `output/checkpoints/netvlad_final.pth`
 - Evaluation Value: Saved the capture of result of task3 `output/task3_result.png`
 - Camera Pose Estimation: Saved the result of task4 `output/result_pose_eval.txt`
+- Code: base.py, eval.py, model.py, test.py, train.py → `output/`
 - Report: Write report on your implementation `output/report`
 
 All outputs are saved in the output/ directory.
