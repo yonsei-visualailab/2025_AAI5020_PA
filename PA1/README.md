@@ -28,10 +28,10 @@ The provided code follows these main steps:
 
 You can download the dataset archives from the links below:
 
-- **dataset.tar** (main dataset archive):  
+- **dataset.tar** (main dataset tar):  
 
    https://drive.google.com/open?id=1kdy6Q_ziso-LdYctOo6JqR3_zDEcY7dE&usp=drive_copy  
-- **dataset.zip** (supplementary archive):
+- **dataset.zip** (main dataset zip):
 
    https://drive.google.com/open?id=1a5f2wX40fFcqGfxzEiA9aJWW8bnOwBlT&usp=drive_copy    
   
