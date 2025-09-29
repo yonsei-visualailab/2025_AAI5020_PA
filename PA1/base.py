@@ -113,9 +113,9 @@ def main():
     # -------------------------------
     # TASK3 : Evaluation with Recall@K
     # -------------------------------
-    gt = np.load("dataset/gt/pitts30k_val.npz", allow_pickle=True)
-    query_ds = ImageListDataset("dataset/query_val.txt", "", transform)
-    db_ds = ImageListDataset("dataset/index_val.txt", "", transform)
+    gt = np.load("dataset/gt/pitts30k_test.npz", allow_pickle=True)
+    query_ds = ImageListDataset("dataset/query_test.txt", "", transform)
+    db_ds = ImageListDataset("dataset/index_test.txt", "", transform)
     evaluate_recall(model, query_ds, db_ds, gt["utmQ"], gt["utmDb"], float(gt["posDistThr"]), device, recall_values=[1,5,10])
 
 
