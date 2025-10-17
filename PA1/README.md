@@ -108,6 +108,8 @@ python test.py
    - Using retrieval and matching information, estimate the camera poses of these query images.
    - Evaluate how accurately the system recovers the missing poses.
    - You can add any ideas
+   - If you need more detail about the camera data please refer below
+     - https://github.com/castacks/tartanair_tools/blob/master/data_type.md
 
 ## Output:
 
